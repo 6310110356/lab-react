@@ -2,8 +2,7 @@ import React from 'react';
 import CharacterCard from './CharacterCard';
 
 export default function WordCard(props){
-    const activationHandler = c => { 
-        console.log(`${c} has been activated.`) }
+    const activationHandler = c => { console.log(`${c} has been activated.`) }
     return(
         <div>
             {
